@@ -157,6 +157,24 @@ h3{
 	color: var(--main-decor-color);
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
+.fa-github:hover {
+    color: #000000;
+	text-shadow: 0 0 50px snow;
+  }
+.fa-twitter:hover {
+    color: #00aced;
+	text-shadow: 0 0 50px #00aced;
+  }
+
+.fa-linkedin-in:hover {
+    color: #0077B5;
+	text-shadow: 0 0 50px #0077B5;
+  }
+
+.fa-envelope-open:hover {
+    color: crimson;
+	text-shadow: 0 0 50px crimson;
+  }
 
 /*──────────────────
       projects
