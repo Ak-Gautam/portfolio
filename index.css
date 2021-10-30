@@ -158,8 +158,8 @@ h3{
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
 .fa-github:hover {
-    color: #000000;
-	text-shadow: 0 0 50px snow;
+    color: white;
+	text-shadow: 0 0 50px white;
   }
 .fa-twitter:hover {
     color: #00aced;
