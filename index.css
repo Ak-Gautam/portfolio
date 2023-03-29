@@ -175,7 +175,7 @@ h4{
     social media
 ──────────────────*/
 
-.social-media{
+.social{
 	padding: 10px;
 	display: flex;
 	position: center;
@@ -183,7 +183,7 @@ h4{
 	justify-content:center;
 }
 
-.social-media a {
+.social a {
     margin: 10px;
     font-size: 2rem;
     text-align:center;
@@ -191,11 +191,11 @@ h4{
 	color: var(--main-fonts-color);
 }
 
-.social-media a i{
+.social a i{
 	cursor: pointer;
 }
 
-.social-media  a:hover {
+.social  a:hover {
 	color: var(--main-decor-color);
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
