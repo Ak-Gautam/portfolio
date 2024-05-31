@@ -200,7 +200,7 @@ h4{
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
 .fa-github:hover {
-    color: white;
+    color: black;
 	text-shadow: 0 0 50px white;
   }
 .fa-twitter:hover {
