@@ -1,7 +1,7 @@
 ## Personal portfolio website
 
 This is my second attempt to create a portfolio website, 1st is available [Here](https://akshaygautam.tk/) <br>
-Special thanks to all my friends from [Hack Club](https://hackclub.com/) and specifically @Fayd (on slack) whose workshop on creating hamburger icon for making website responsive was very helpful.
+Special thanks to all my friends from [Hack Club](https://hackclub.com/).
 
 Major difference from previous website is:
 - this site is responsive
