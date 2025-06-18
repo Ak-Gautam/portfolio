@@ -3,17 +3,18 @@
 This is my second attempt to create a portfolio website, 1st is available [Here](https://akshaygautam.tk/) <br>
 Special thanks to all my friends from [Hack Club](https://hackclub.com/).
 
-Major difference from previous website is:
-- this site is responsive
-- Single page with three sections
-- used [Font Awesome](https://fontawesome.com/) for icons
-- My favourite color scheme.
-- images are from [Unspalsh](https://unsplash.com/)
+This version is a complete overhaul focusing on a modern, premium, and minimalist design.
+
+Major upgrades from the previous design:
+- Complete redesign with a clean, light theme and a new color palette.
+- Modern typography using Google Fonts (Montserrat & Source Sans Pro).
+- Fully responsive layout with a two-column hero section.
+- Dynamic scroll animations using the Intersection Observer API.
+- All interactions are now powered by vanilla JavaScript (no more jQuery!).
+- Images are from [Unsplash](https://unsplash.com/) and icons from [Font Awesome](https://fontawesome.com/).
 
 ----
-#### Used
+#### Tech Stack
 
-- HTML5 for markup
-- CSS for styling
-- Jquery to make header animation effects work (just a bit)
-- JavaScript to make a hamburger menu to work on mobile devices
+- HTML5
+- CSS3 (with Flexbox and Grid)

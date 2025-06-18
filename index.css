@@ -108,6 +108,7 @@ a.nav-link:hover {
     justify-content: center;
     min-height: 100vh;
     padding-top: 70px;
+    background: linear-gradient(to bottom, var(--light-background), #eef1f5);
 }
 
 .home-container {
