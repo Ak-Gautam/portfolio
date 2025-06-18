@@ -5,8 +5,11 @@
       <meta name="viewport" content="width=device-width">
       <title>Akshay Gautam</title>
       <link href="index.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
-      <script src="script.js"></script>
+      <script src="script.js" defer></script>
   </head>
     <body>
 	  
@@ -32,108 +35,136 @@
     <main>
         <!--─────────────────Home────────────────-->
       <section id="home">
-         <div class="filter"></div>
-            <div class="intro">
-              <h3>Akshay Gautam<hr></h3>
+         <div class="home-container">
+            <div class="home-text">
+              <h1>Akshay Gautam</h1>
               <p>
-				I'm a seasoned Data Science / AI Scientist with over 2 years of experience dedicated to enhancing business operations through the power of AI and Machine Learning. My passion extends to the realms of IoT, AI on the Edge, Deep Learning, and Robotics.
-			</p>
-			<p>
-				I thrive on engineering solutions that address real-world challenges, driven by my innate problem-solving acumen. Beyond my technical pursuits, I'm equally enthusiastic about fostering learning and growth in others. I've conducted over 20 workshops on topics such as Machine Learning, Data Engineering, and AI, empowering individuals to unlock their full potential.
-			</p>
-              <h4>Skills :<hr></h4>
-              <p>
-				  <ul>
-					<li>AI</li>
-					  <li>Python3</li>
-					  <li>Machine Learning</li>
-					  <li>Deep Learning</li>
-					  <li>C/C++</li>
-					  <li>MySQL</li>
-					  <li>Git</li>
-					  <li>Linux</li>
-					  <li>Arduino</li>
-					  <li>Raspberry Pi</li>
-					  <li>IoT</li>
-					  <li>Robotics</li>
-                  </ul>
-            </div> 
-         </section> 
+                I am an AI Research Engineer with over 3 years of experience in developing and deploying cutting-edge machine learning solutions. My work involves fine-tuning large language models like LLaMA and BERT, building efficient data pipelines for video and audio processing, and creating novel AI-powered tools. I am passionate about leveraging deep learning and NLP to solve complex problems and drive business value.
+              </p>
+              <div class="home-buttons">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </div>
+              <div class="skills-container">
+                <h3>Top Skills</h3>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>PyTorch</li>
+                    <li>TensorFlow</li>
+                    <li>SQL</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>NLP</li>
+                    <li>LLMs</li>
+                    <li>Transformers</li>
+                    <li>ETL</li>
+                    <li>Gradio</li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-image">
+                <img src="./images/10.jpg" alt="Abstract art">
+            </div>
+         </div>
+      </section> 
       
-        
       <!--───────────────Projects───────────────-->
-      <section id="projects"> 
-         <h3>My Projects.<hr></h3>
-          <p>Few of the projects that I made.</p>
+      <section id="projects" class="hidden"> 
+         <h2>My Projects</h2>
+         <hr>
+          <p>Here are a few projects I've worked on.</p>
           <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-				<img class="work-img" src="./images/13.jpg">
-				<a href="https://github.com/Ak-Gautam/efficient_llm_fine_tunes/tree/main/mistral7b_03" target="_blank"> <!--Link to project-->
-				<div class="work-content">Mistral 7B Chat<br>"Efficient LLM Finetuning"</div></a>
-			</div>
-			<div class="card">
-				<img class="work-img" src="./images/14.jpg">
-				<a href="https://github.com/Ak-Gautam/efficient_llm_fine_tunes/tree/main/mistral7b_03" target="_blank"> <!--Link to project-->
-				<div class="work-content">Qwen 0.5B Chat<br>"Instruction Finetuning"</div></a>
-			</div>
-			<div class="card">
-				<img class="work-img" src="./images/02.png">
-				<a href="https://github.com/Ak-Gautam/Tweet_Sentiment" target="_blank"> <!--Link to project-->
-				<div class="work-content">Sentiment Analyzer<br>"LSTM Project with API"</div></a>
-			</div>
-			<div class="card">
-				<img class="work-img" src="./images/12.png">
-				<a href="https://github.com/Ak-Gautam/Regularised_L_M" target="_blank"> <!--Link to project-->
-				<div class="work-content">R L M<br>"Advance ML Project"</div></a>
-			</div>
-			<div class="card">
-			    <img class="work-img" src="./images/04.jpg">
-				<a href="https://github.com/Ak-Gautam/advertiser" target="_blank"> <!--Link to project-->
-				<div class="work-content">Advertiser<br>"ML project with GUI"</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="./images/00.jpg">
-			    <a href="https://github.com/Ak-Gautam/C_codes/tree/main/calender%20project" target="_blank"> <!--Link to project-->
-				<div class="work-content">Calender Wizard<br>"C project"</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="./images/11.jpg">
-				<a href="https://github.com/Ak-Gautam/python_works/tree/master/game01" target="_blank"> <!--Link to project-->
-				<div class="work-content">Path Finder<br>"Python A* project"</div></a>
+            <!--───────────────card───────────────-->
+            <div class="card">
+                <img class="work-img" src="./images/13.jpg">
+                <a href="https://github.com/Ak-Gautam/efficient_llm_fine_tunes/tree/main/mistral7b_03" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Mistral 7B Chat</h4>
+                    <p>"Efficient LLM Finetuning"</p>
+                </div></a>
             </div>
             <div class="card">
-			    <img class="work-img" src="./images/05.jpg">
-				<a href="https://github.com/Ak-Gautam/Arduino-Projects/tree/master/NRF%2BGyro%20Rx-Tx" target="_blank"> <!--Link to project-->
-				<div class="work-content">Movement controlled rover<br>"Harware project"</div></a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" src="./images/03.jpg">
-				<a href="https://github.com/Ak-Gautam/diabetese_pred" target="_blank"> <!--Link to project-->
-				<div class="work-content">Diabetes Risk Calc.<br>"Feature Engineering"</div></a>
+                <img class="work-img" src="./images/14.jpg">
+                <a href="https://github.com/Ak-Gautam/efficient_llm_fine_tunes/tree/main/mistral7b_03" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Qwen 0.5B Chat</h4>
+                    <p>"Instruction Finetuning"</p>
+                </div></a>
             </div>
-			<div class="card">
-			    <img class="work-img" src="./images/06.jpg">
-				<a href="https://github.com/Ak-Gautam/machine_learning" target="_blank"> <!--Link to project-->
-				<div class="work-content">Other ML projects</div></a>
+            <div class="card">
+                <img class="work-img" src="./images/02.png">
+                <a href="https://github.com/Ak-Gautam/Tweet_Sentiment" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Sentiment Analyzer</h4>
+                    <p>"LSTM Project with API"</p>
+                </div></a>
+            </div>
+            <div class="card">
+                <img class="work-img" src="./images/12.png">
+                <a href="https://github.com/Ak-Gautam/Regularised_L_M" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>R L M</h4>
+                    <p>"Advance ML Project"</p>
+                </div></a>
+            </div>
+            <div class="card">
+                <img class="work-img" src="./images/04.jpg">
+                <a href="https://github.com/Ak-Gautam/advertiser" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Advertiser</h4>
+                    <p>"ML project with GUI"</p>
+                </div></a>
+            </div>
+            <div class="card">
+                <img class="work-img" src="./images/00.jpg">
+                <a href="https://github.com/Ak-Gautam/C_codes/tree/main/calender%20project" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Calender Wizard</h4>
+                    <p>"C project"</p>
+                </div></a>
+            </div>
+            <div class="card">
+                <img class="work-img" src="./images/11.jpg">
+                <a href="https://github.com/Ak-Gautam/python_works/tree/master/game01" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Path Finder</h4>
+                    <p>"Python A* project"</p>
+                </div></a>
+            </div>
+            <div class="card">
+                <img class="work-img" src="./images/05.jpg">
+                <a href="https://github.com/Ak-Gautam/Arduino-Projects/tree/master/NRF%2BGyro%20Rx-Tx" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Movement controlled rover</h4>
+                    <p>"Harware project"</p>
+                </div></a>
+            </div> 
+            <div class="card">
+                <img class="work-img" src="./images/03.jpg">
+                <a href="https://github.com/Ak-Gautam/diabetese_pred" target="_blank"> <!--Link to project-->
+                <div class="work-content">
+                    <h4>Diabetes Risk Calc.</h4>
+                    <p>"Feature Engineering"</p>
+                </div></a>
+            </div>
+            <div class="card">
+                <img class="work-img" src="./images/06.jpg">
+                <a href="https://github.com/Ak-Gautam/machine_learning" target="_blank"> <!--Link to project-->
+                <div class="work-content"><h4>Other ML projects</h4></div></a>
             </div> 	  
-		  </div>
           </div>
       </section>
          
         <!--──────────────Contact────────────────-->
-      <section id="contact">
+      <section id="contact" class="hidden">
           <!--────social media links─────-->
-           <h3>Contact.<hr></h3>
-           <p>How to contact me:</p>
+           <h2>Contact</h2>
+           <hr>
+           <p>Feel free to reach out.</p>
             <div class="social">
-			 <!--<a href="#" target="_blank"><i class='fab fa-codepen'></i></a>-->
-              <a href="https://twitter.com/Gautam_A_k" target="_blank"><i class='fab fa-twitter'></i></a>
-              <!-- <a href="https://twitter.com/Gautam_A_k" target="_blank"><i class='fa-brands fa-square-x-twitter'></i></a> -->
+             <!--<a href="#" target="_blank"><i class='fab fa-codepen'></i></a>-->
+              <a href="https://x.com/Gautam_A_k" target="_blank"><i class='fa-brands fa-square-x-twitter'></i></a>
               <a href="https://github.com/Ak-Gautam/" target="_blank"><i class='fab fa-github'></i></a>
               <a href="https://www.linkedin.com/in/ak-gautam" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-              <a href="mailto:youremail@example.com" target="_blank"><i class="fas fa-envelope-open"></i></a>
             </div>
           </section>
 
