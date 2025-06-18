@@ -1,14 +1,12 @@
 // header scrolling effect
-$(window).on('scroll', function(){
-	if($(window).scrollTop()){
-      $('header').addClass('nav-show');
-		  
-	} 
-	else{
-		$('header').removeClass('nav-show');
-	}
-	   
-})
+window.addEventListener('scroll', () => {
+    const header = document.querySelector('header');
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
 
 //hamburger
 const navSlide = () => {
@@ -31,7 +29,10 @@ const navSlide = () => {
 	  //hamburger animation
 	 hamburger.classList.toggle("toggle");
     }
-	 
-	}
+     
+}
 
-window.onload = () => navSlide();
+window.onload = () => {
+    navSlide();
+    document.querySelector('.copyright span').textContent = new Date().getFullYear();
+};
