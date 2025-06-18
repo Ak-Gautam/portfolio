@@ -284,11 +284,13 @@ a.nav-link:hover {
 }
 
 .social a[href*="x.com"]:hover {
-    color: #000000;
+    color: #FFFFFF;
+	text-shadow: 0 0 20px #002000;
 }
 
 .social a[href*="github.com"]:hover {
-    color: #000000;
+    color: #e0dfdf;
+	text-shadow: 0 0 20px #002000;
 }
 
 .social a[href*="linkedin.com"]:hover {
@@ -316,7 +318,7 @@ footer {
 }
 
 .copyright a:hover{
-    color: var(--accent-color);
+    color: var(#002220);
 }
 
 /*──── hr ─────*/
