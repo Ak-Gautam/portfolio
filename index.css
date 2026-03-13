@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
 }
 
 h1 { font-size: 3.5rem; margin-bottom: 0.5rem; }
-h2 { font-size: 2.5rem; padding-top: 100px; margin-bottom: 1.5rem; text-align: center; }
+h2 { font-size: 2.5rem; padding-top: 100px; margin-bottom: 0.75rem; text-align: center; }
 p { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 1.5rem; }
 
 section {
@@ -200,7 +200,8 @@ header {
     text-align: center;
 }
 
-#projects hr {
+#projects hr,
+#contact hr {
     width: 40px;
     height: 3px;
     background: var(--accent);
@@ -262,10 +263,26 @@ header {
     margin-bottom: 0;
 }
 
-/*────────────────Contact───────────────*/
 #contact {
     text-align: center;
     min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h2 {
+    padding-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#contact hr {
+    margin-bottom: 1.25rem;
+}
+
+#contact p {
+    margin-bottom: 0;
 }
 
 .social {
