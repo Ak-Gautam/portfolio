@@ -1,180 +1,182 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Akshay Gautam</title>
-      <link href="index.css" rel="stylesheet" type="text/css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
-      <script src="script.js" defer></script>
-  </head>
-    <body>
-	  
-        <div class="container">
-	  
-		<!--────────────────Header───────────────-->
-	<header>
 
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
-			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-    <main>
-        <!--─────────────────Home────────────────-->
-      <section id="home">
-         <div class="home-container">
-            <div class="home-text">
-              <h1>Akshay Gautam</h1>
-              <p>
-                I am an AI Research Engineer with over 3 years of experience in developing and deploying cutting-edge machine learning solutions. My work involves fine-tuning large language models like LLaMA and BERT, building efficient data pipelines for video and audio processing, and creating novel AI-powered tools. I am passionate about leveraging deep learning and NLP to solve complex problems and drive business value.
-              </p>
-              <div class="home-buttons">
-                <a class="nav-link" href="#contact">Contact Me</a>
-              </div>
-              <div class="skills-container">
-                <h3>Top Skills</h3>
-                <ul class="skills-list">
-                    <li>Python</li>
-                    <li>PyTorch</li>
-                    <li>TensorFlow</li>
-                    <li>SQL</li>
-                    <li>Machine Learning</li>
-                    <li>Deep Learning</li>
-                    <li>NLP</li>
-                    <li>LLMs</li>
-                    <li>Transformers</li>
-                    <li>ETL</li>
-                    <li>Gradio</li>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Akshay Gautam</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!--────────────────Header───────────────-->
+        <header>
+            <nav>
+                <ul class="nav-bar">
+                    <div class="bg"></div>
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme"><i
+                                class="fas fa-moon"></i></button></li>
                 </ul>
-              </div>
-            </div>
-            <div class="home-image">
-                <img src="./images/10.jpg" alt="Abstract art">
-            </div>
-         </div>
-      </section> 
-      
-      <!--───────────────Projects───────────────-->
-      <section id="projects" class="hidden"> 
-         <h2>My Projects</h2>
-         <hr>
-          <p>Here are a few projects I've worked on.</p>
-          <div class="work-box">
-            <!--───────────────card───────────────-->
-            <div class="card">
-                <img class="work-img" src="./images/omnimatte.jpg">
-                <a href="https://github.com/Ak-Gautam/OmnimatteZeroEfficient" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>OmnimatteZero Efficient</h4>
-                    <p>"Video Matting on Apple Silicon"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/rf_detr_mac.jpeg">
-                <a href="https://github.com/Ak-Gautam/rf-detr-mac" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>RF-DETR Mac</h4>
-                    <p>"Real-Time Object Detection on Apple Silicon"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/13.jpg">
-                <a href="https://github.com/Ak-Gautam/efficient_llm_fine_tunes/tree/main/mistral7b_03" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>Mistral 7B Chat</h4>
-                    <p>"Efficient LLM Finetuning"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/02.png">
-                <a href="https://github.com/Ak-Gautam/Tweet_Sentiment" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>Sentiment Analyzer</h4>
-                    <p>"LSTM Project with API"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/12.png">
-                <a href="https://github.com/Ak-Gautam/Regularised_L_M" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>R L M</h4>
-                    <p>"Advance ML Project"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/04.jpg">
-                <a href="https://github.com/Ak-Gautam/advertiser" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>Advertiser</h4>
-                    <p>"ML project with GUI"</p>
-                </div></a>
-            </div>
 
-            <div class="card">
-                <img class="work-img" src="./images/11.jpg">
-                <a href="https://github.com/Ak-Gautam/python_works/tree/master/game01" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>Path Finder</h4>
-                    <p>"Python A* project"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/05.jpg">
-                <a href="https://github.com/Ak-Gautam/Arduino-Projects/tree/master/NRF%2BGyro%20Rx-Tx" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>Movement controlled rover</h4>
-                    <p>"Harware project"</p>
-                </div></a>
-            </div> 
-            <div class="card">
-                <img class="work-img" src="./images/03.jpg">
-                <a href="https://github.com/Ak-Gautam/diabetese_pred" target="_blank"> <!--Link to project-->
-                <div class="work-content">
-                    <h4>Diabetes Risk Calc.</h4>
-                    <p>"Feature Engineering"</p>
-                </div></a>
-            </div>
-            <div class="card">
-                <img class="work-img" src="./images/06.jpg">
-                <a href="https://github.com/Ak-Gautam/machine_learning" target="_blank"> <!--Link to project-->
-                <div class="work-content"><h4>Other ML projects</h4></div></a>
-            </div> 	  
-          </div>
-      </section>
-         
-        <!--──────────────Contact────────────────-->
-      <section id="contact" class="hidden">
-          <!--────social media links─────-->
-           <h2>Contact</h2>
-           <hr>
-           <p>Feel free to reach out.</p>
-            <div class="social">
-             <!--<a href="#" target="_blank"><i class='fab fa-codepen'></i></a>-->
-              <a href="https://x.com/Gautam_A_k" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-              
-              <a href="https://www.linkedin.com/in/ak-gautam" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-			  <a href="https://github.com/Ak-Gautam/" target="_blank"><i class='fab fa-github'></i></a>
-            </div>
-          </section>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!--─────────────────Home────────────────-->
+            <section id="home">
+                <div class="home-container">
+                    <div class="home-text">
+                        <h1>Akshay Gautam</h1>
+                        <p class="hero-sub">AI Research Engineer</p>
+                        <p>
+                            I architect and deploy high-performance machine learning systems—from multimodal VLM pipelines to efficient on-device inference. With over 4 years of professional experience, my work bridges the gap between cutting-edge AI and robust, production-ready engineering.
+                        </p>
+                        <div class="home-buttons">
+                            <a class="nav-link btn-primary" href="#projects">View My Projects</a>
+                            <a class="nav-link btn-secondary" href="#contact">Contact Me</a>
+                        </div>
+                        <div class="skills-container">
+                            <h3>Core Expertise</h3>
+                            <ul class="skills-list">
+                                <li>Multimodal LLMs</li>
+                                <li>AI on Edge</li>
+                                <li>Efficient Inference</li>
+                                <li>Agent Harness</li>
+                                <li>AI for Robotics</li>
+                                <li>Distributed Training</li>
+                                <li>PyTorch</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="home-image">
+                        <img src="./images/10.jpg" alt="Akshay Gautam - AI Research Engineer">
+                    </div>
+                </div>
+            </section>
 
-    </main>
-      <footer class="copyright">© <span>2024</span>
-          <a href="https://github.com/Ak-Gautam/" target="_blank">Akshay Gautam</a>
-     </footer>
-	  
-  </div>
-  </body>
+            <!--───────────────Projects───────────────-->
+            <section id="projects" class="hidden">
+                <h2>Selected Projects</h2>
+                <hr>
+                <p>A curation of my recent projects and engineering work.</p>
+                <div class="work-box">
+                    <!--───────────────card───────────────-->
+                    <div class="card">
+                        <img class="work-img" src="./images/omnimatte.jpg" alt="OmnimatteZero Efficient thumbnail">
+                        <a href="https://github.com/Ak-Gautam/OmnimatteZeroEfficient" target="_blank">
+                            <div class="work-content">
+                                <h4>OmnimatteZero Efficient</h4>
+                                <p>SOTA Video Matting optimized for Apple Silicon inference.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/rf_detr_mac.jpeg" alt="RF-DETR Mac thumbnail">
+                        <a href="https://github.com/Ak-Gautam/rf-detr-mac" target="_blank">
+                            <div class="work-content">
+                                <h4>RF-DETR Mac</h4>
+                                <p>Real-time Object Detection and Segmentation on M-series chips.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/stalkr.png" alt="stalkr thumbnail">
+                        <a href="https://github.com/Ak-Gautam/stalkr" target="_blank">
+                            <div class="work-content">
+                                <h4>stalkr</h4>
+                                <p>High-performance frame-by-frame object tracking and counting framework.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/zrag.png" alt="zRAG thumbnail">
+                        <a href="https://github.com/Ak-Gautam/sRAG" target="_blank">
+                            <div class="work-content">
+                                <h4>zRAG</h4>
+                                <p>Enterprise-grade Retrieval-Augmented Generation with semantic search.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/alchemy.png" alt="alchemy thumbnail">
+                        <a href="https://github.com/Ak-Gautam/alchemy" target="_blank">
+                            <div class="work-content">
+                                <h4>alchemy</h4>
+                                <p>Modular agent harness for composing, orchestrating, and deploying multi-step AI workflows at scale.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/05.jpg" alt="Movement controlled rover thumbnail">
+                        <a href="https://github.com/Ak-Gautam/Arduino-Projects/tree/master/NRF%2BGyro%20Rx-Tx"
+                            target="_blank">
+                            <div class="work-content">
+                                <h4>Movement Controlled Rover</h4>
+                                <p>Low-latency robotics control using NRF and Gyroscopic sensors.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/13.jpg" alt="Mistral 7B Chat thumbnail">
+                        <a href="https://github.com/Ak-Gautam/efficient_llm_fine_tunes/tree/main/mistral7b_03"
+                            target="_blank">
+                            <div class="work-content">
+                                <h4>Mistral 7B Chat</h4>
+                                <p>Parameter-efficient fine-tuning for specialized LLM chat capabilities.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img class="work-img" src="./images/06.jpg" alt="More projects thumbnail">
+                        <a href="https://github.com/Ak-Gautam/machine_learning" target="_blank">
+                            <div class="work-content">
+                                <h4>More Projects</h4>
+                                <p>Further explorations in Deep Learning and NLP.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--──────────────Contact────────────────-->
+            <section id="contact" class="hidden">
+                <!--────social media links─────-->
+                <h2>Contact</h2>
+                <hr>
+                <p>Open for high-impact AI collaborations and consulting.</p>
+                <div class="social">
+                    <a href="https://x.com/Gautam_A_k" target="_blank" aria-label="X (Twitter)"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ak-gautam" target="_blank" aria-label="LinkedIn"><i
+                            class='fab fa-linkedin-in'></i></a>
+                    <a href="https://github.com/Ak-Gautam/" target="_blank" aria-label="GitHub"><i
+                            class='fab fa-github'></i></a>
+                </div>
+            </section>
+
+        </main>
+        <footer class="copyright">© <span>2024</span>
+            <a href="https://github.com/Ak-Gautam/" target="_blank">Akshay Gautam</a>
+        </footer>
+
+    </div>
+</body>
+
 </html>
