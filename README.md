@@ -1,20 +1,21 @@
-## Personal portfolio website
+# Akshay Gautam - Portfolio
 
-This is my second attempt to create a portfolio website, 1st is available [Here](https://akshaygautam.tk/) <br>
-Special thanks to all my friends from [Hack Club](https://hackclub.com/).
+A modern, minimalist, and text-focused portfolio showcasing work in AI engineering, robotics, and computer vision.
 
-This version is a complete overhaul focusing on a modern, premium, and minimalist design.
+## Features
+- **Clean Aesthetic**: A premium, typography-driven design with light/dark mode support.
+- **Responsive**: Fully responsive layout using CSS Grid and Flexbox.
+- **Fast & Lightweight**: Built with vanilla HTML, CSS, and JS. No external dependencies or heavy assets.
 
-Major upgrades from the previous design:
-- Complete redesign with a clean, light theme and a new color palette.
-- Modern typography using Google Fonts (Montserrat & Source Sans Pro).
-- Fully responsive layout with a two-column hero section.
-- Dynamic scroll animations using the Intersection Observer API.
-- All interactions are now powered by vanilla JavaScript (no more jQuery!).
-- Images are from [Unsplash](https://unsplash.com/) and icons from [Font Awesome](https://fontawesome.com/).
+## Projects
+- **Fern Bio**: AI patent assistant focusing on data pipelines and fine-tuned agents.
+- **OmnimatteZeroEfficient**: Fast training-free video matting.
+- **RF-DETR Mac**: Object detection and segmentation on Apple Silicon.
+- **RLM**: Regularised linear model experiments.
+- **alchemy**: Multi-step AI workflow orchestration.
+- **sRAG**: Retrieval-augmented generation for semantic search.
 
-----
-#### Tech Stack
-
+## Tech Stack
 - HTML5
-- CSS3 (with Flexbox and Grid)
+- Vanilla CSS (Custom properties, Grid, Flexbox)
+- Vanilla JavaScript
