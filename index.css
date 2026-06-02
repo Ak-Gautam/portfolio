@@ -310,3 +310,20 @@ h2 {
         scroll-behavior: auto !important;
     }
 }
+
+.date {
+    display: block;
+    font-family: "Raleway", system-ui, sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 4px;
+}
+
+.job-title {
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 6px 0;
+}

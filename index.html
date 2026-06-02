@@ -21,9 +21,10 @@
         <header class="intro" id="top">
             <nav class="top-nav" aria-label="Main navigation">
                 <a href="#projects">Projects</a>
-                <a href="#robotics">Robotics</a>
+                <a href="#work">Experience</a>
+                <a href="#community">Community</a>
                 <a href="#publication">Paper</a>
-                <a href="#work">Work</a>
+                <a href="#robotics">Robotics</a>
                 <a href="#contact">Contact</a>
                 <button class="theme-toggle" type="button" aria-label="Toggle color theme">
                     <span class="theme-icon" aria-hidden="true"></span>
@@ -31,11 +32,9 @@
             </nav>
 
             <h1>Akshay Gautam</h1>
-            <p class="subtitle">AI engineer working across models, agents, vision, and robotics.</p>
+            <p class="subtitle">AI Engineer specializing in LLM alignment, agent systems, and deployment.</p>
             <p class="intro-text">
-                I work across the practical AI stack: collecting and cleaning data, creating datasets, fine-tuning
-                models, building retrieval systems, and making agents usable in real products. I have worked
-                professionally in software, and I also build robots and hardware systems on the side.
+                I build and scale production AI systems end-to-end. Previously, I was the Lead AI Engineer at Fern-Bio, where I led a cross-functional team of 4 engineers and built our complete model alignment, training, and multi-agent systems serving thousands of daily production requests. I specialize in fine-tuning open models (9B to 120B), reinforcement learning alignment (GRPO, DPO, PPO), low-latency inference, and bridging AI internals with outstanding developer experiences.
             </p>
             <div class="links">
                 <a href="https://x.com/Gautam_A_k" target="_blank" rel="noreferrer">X</a>
@@ -50,18 +49,16 @@
                 <article class="project">
                     <h3><a href="https://fern-bio.com/" target="_blank" rel="noreferrer">Fern Bio</a></h3>
                     <p>
-                        AI patent assistant built from the ground up. I worked on data collection, data cleaning,
-                        dataset creation, model fine-tuning, and agent creation.
+                        Led the development of the entire AI platform as Lead AI Engineer: built instruction datasets, aligned domain-specific models via GRPO/DPO, orchestrated multi-agent reasoning networks, and ran low-latency production APIs serving 3,000+ requests/day at 99.99% uptime.
                     </p>
-                    <p class="meta">AI agents, fine-tuning, patent workflows</p>
+                    <p class="meta">Lead AI Engineer • LLM alignment, agent orchestration, production infra</p>
                 </article>
 
                 <article class="project">
                     <h3><a href="https://github.com/Ak-Gautam/OmnimatteZeroEfficient" target="_blank"
-                            rel="noreferrer">OmnimatteZeroEfficient</a></h3>
+                             rel="noreferrer">OmnimatteZeroEfficient</a></h3>
                     <p>
-                        Efficient implementation work around OmnimatteZero, focused on fast training-free video matting
-                        with pretrained video diffusion models.
+                        Optimized inference for training-free video matting with pretrained video diffusion models, enabling high-quality segment masks at high framerates.
                     </p>
                     <p class="meta">computer vision, video diffusion, optimization</p>
                 </article>
@@ -70,7 +67,7 @@
                     <h3><a href="https://github.com/Ak-Gautam/rf-detr-mac" target="_blank" rel="noreferrer">RF-DETR
                             Mac</a></h3>
                     <p>
-                        Mac-focused work on RF-DETR for real-time object detection and segmentation workflows.
+                        Ported and optimized RF-DETR for Apple Silicon, enabling low-latency, real-time object detection and segmentation workflows on macOS.
                     </p>
                     <p class="meta">object detection, segmentation, Apple Silicon</p>
                 </article>
@@ -97,20 +94,100 @@
                 <article class="project">
                     <h3><a href="https://github.com/Ak-Gautam/sRAG" target="_blank" rel="noreferrer">sRAG</a></h3>
                     <p>
-                        Retrieval-augmented generation experiments for semantic search and question answering.
+                        Built a lightweight retrieval-augmented generation pipeline with hybrid keyword-semantic search and custom context compression for fast Q&A.
                     </p>
                     <p class="meta">RAG, retrieval, semantic search</p>
                 </article>
             </div>
         </section>
 
-        <section id="robotics" class="section compact">
-            <h2>Robotics and Hardware</h2>
-            <p>
-                Hardware is a serious side of my work. I have built from scratch harware projects rangings from robot
-                arms, self-balancing bots to autonomous warehouse management swarm robots. I am currently exploring the
-                intersection of robotics and AI, with efficient edge inference as focus.
-            </p>
+        <section id="work" class="section">
+            <h2>Experience</h2>
+            <div class="project-list">
+                <article class="project">
+                    <h3>
+                        Fern-Bio<br>
+                        <span class="date">June 2024 – Present</span>
+                    </h3>
+                    <div>
+                        <h4 class="job-title">Lead AI Engineer</h4>
+                        <p>
+                            Led and coordinated a cross-functional team of 4 engineers responsible for model training infrastructure, inference optimization, and synthetic data generation. Built the company's complete model alignment, training, and multi-agent platforms from scratch, serving 3,000+ daily production requests at 99.99% uptime. Managed enterprise technical integrations and scope with partners including Qualcomm, Marvell, and UC Berkeley.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>
+                        Alignment Labs<br>
+                        <span class="date">Jan 2024 – June 2024</span>
+                    </h3>
+                    <div>
+                        <h4 class="job-title">AI Research Engineer</h4>
+                        <p>
+                            Built a video understanding model using keyframe captioning and temporal aggregation, processing hour-long footage on a single NVIDIA T4 GPU. Designed a high-speed audio pipeline with speaker diarization and transcription, and fine-tuned Llama 3.1 70B on 4x A40 GPUs to generate synthetic datasets from connected enterprise sources.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>
+                        Volley<br>
+                        <span class="date">May 2022 – Dec 2023</span>
+                    </h3>
+                    <div>
+                        <h4 class="job-title">Data Scientist</h4>
+                        <p>
+                            Rebuilt the prospect research pipeline with ML models and SQL automation, saving $40K/year in manual overhead. Fine-tuned BERT-based classification models to improve outreach open rates by 16%, and co-developed a GPT-3.5 outreach tool that increased client delivery throughput by 7%.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>
+                        Independent Consulting<br>
+                        <span class="date">2021 – Present</span>
+                    </h3>
+                    <div>
+                        <h4 class="job-title">AI Consultant</h4>
+                        <p>
+                            Built and deployed custom LLM, RAG, and multi-agent systems for startups (including Tensorlake) and mid-market tech companies, tailoring API integrations and custom embedding/retrieval systems to cut query latency by 30%.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="community" class="section">
+            <h2>Community &amp; Open Source</h2>
+            <div class="project-list">
+                <article class="project">
+                    <h3>Speaking &amp; Education</h3>
+                    <div>
+                        <p>
+                            Invited speaker at <strong>15+ technical workshops</strong> covering LLM fine-tuning, reinforcement learning, and agentic architectures, helping developers adopt frontier AI.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>Open Source</h3>
+                    <div>
+                        <p>
+                            Active developer focused on deep learning optimizations and porting key research papers and model weights to run with custom optimizations on <strong>M-series Apple Silicon</strong> platforms (llama.cpp, JAX, vLLM).
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h3>Hackathons &amp; Judging</h3>
+                    <div>
+                        <p>
+                            Served as an expert judge for <strong>3 AI-focused hackathons</strong> and coding competitions. Won <strong>Smart India Hackathon 2022</strong>, competing against 160,000+ participants from 2,235 institutions.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="publication" class="section compact">
@@ -123,22 +200,19 @@
             </article>
         </section>
 
-        <section id="work" class="section compact">
-            <h2>What I Work On</h2>
-            <ul class="simple-list">
-                <li>Data collection, cleaning, and dataset creation for domain-specific AI systems.</li>
-                <li>LLM fine-tuning, lightweight model adaptation, and practical inference workflows.</li>
-                <li>Retrieval systems, agent harnesses, and multi-step AI product workflows.</li>
-                <li>Computer vision systems for video matting, detection, segmentation, and tracking.</li>
-                <li>Robotics and hardware systems, especially where perception and AI meet the physical world.</li>
-            </ul>
-        </section>
-
         <section class="section compact">
             <h2>Selected Tools</h2>
             <p class="tool-line">
-                Python, PyTorch, Transformers, RAG, scraping, dataset pipelines, model fine-tuning, computer vision,
-                agents, Apple Silicon inference, robotics, embedded AI.
+                Python, PyTorch, Transformers, LLM Fine-Tuning, Model Alignment (GRPO, DPO, PPO), Multi-Agent Systems, High-Performance RAG, low-latency APIs, Docker, Git, GCP, Apple Silicon Inference (llama.cpp, JAX), Robotics, Embedded AI.
+            </p>
+        </section>
+
+        <section id="robotics" class="section compact">
+            <h2>Robotics and Hardware</h2>
+            <p>
+                Hardware is a serious side of my work. I have built from scratch hardware projects ranging from robot
+                arms and self-balancing bots to autonomous warehouse management swarm robots. I am currently exploring the
+                intersection of robotics and AI, with efficient edge inference as my focus.
             </p>
         </section>
 
